@@ -1,23 +1,33 @@
 # tailwind-project
 
-## Usage
+## This is a test project with
+
+- [Vite](https://vitejs.dev/)
+- [Solid JS](https://solidjs.com)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Flowbite](https://flowbite.com/)
+
+
+## Install
 
 ```bash
 $ npm install # or pnpm install or yarn install
 ```
 
-### Learn more on the [Solid Website](https://solidjs.com)
+## Build for dev
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm run dev`
+```bash
+npm run dev
+```
 
 Runs the app in the development mode.<br>
 Open [http://localhost:5173](http://localhost:5173) to view it in the browser.
 
-### `npm run build`
+## Build for prod
+
+```bash
+npm run build
+```
 
 Builds the app for production to the `dist` folder.<br>
 It correctly bundles Solid in production mode and optimizes the build for the best performance.
@@ -25,7 +35,7 @@ It correctly bundles Solid in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.<br>
 Your app is ready to be deployed!
 
-## Deployment
+## Deploy
 
 ### Cloudflare Pages deployment ###
 
