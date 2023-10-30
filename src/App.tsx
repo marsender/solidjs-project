@@ -1,6 +1,7 @@
 import { createSignal } from 'solid-js'
 import solidLogo from './assets/solid.svg'
 import viteLogo from '/vite.svg'
+import Navbar from "./components/Navbar"
 import './App.css'
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
 	return (
 		<>
 			<div>
+				<Navbar />
 				<a href="https://vitejs.dev" target="_blank">
 					<img src={viteLogo} class="logo" alt="Vite logo" />
 				</a>
