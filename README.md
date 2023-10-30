@@ -27,4 +27,12 @@ Your app is ready to be deployed!
 
 ## Deployment
 
+### Cloudflare Pages deployment ###
+
+- Log in to the Cloudflare dashboard and select your account in Account Home > Pages.
+- Select Create a new Project and the Connect Git option.
+- Select the git project you want to deploy and click Begin setup
+- Set build command: npm run build
+- Set build output directory: /dist
+
 Learn more about deploying your application with [Vite documentations](https://vitejs.dev/guide/static-deploy.html)
