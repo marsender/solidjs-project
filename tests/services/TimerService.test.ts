@@ -1,12 +1,7 @@
-//import TimerService from "../services/TimerService"
+import TimerService from "../../src/services/TimerService"
 
-/*
 test('timer get set', () => {
-	TimerService.setTimer('12')
-	expect(TimerService.getTimer()).toBe(12);
-});
-*/
-
-test('first test', () => {
-	expect(12).toBe(12);
+	const timerService = new TimerService()
+	timerService.setTimer(12)
+	expect(timerService.getTimer()).toBe(12);
 });
