@@ -2,24 +2,27 @@
 	"name": "tailwind-project",
 	"private": true,
 	"version": "0.1.0",
-	"type": "module",
 	"scripts": {
 		"dev": "vite",
 		"build": "tsc && vite build",
-		"preview": "vite preview"
+		"preview": "vite preview",
+		"test": "jest"
 	},
 	"dependencies": {
 		"solid-js": "^1.7.8"
 	},
 	"devDependencies": {
+		"@types/jest": "^29.5.7",
 		"autoprefixer": "^10.4.16",
 		"flowbite": "^2.0.0",
+		"jest": "^29.7.0",
 		"postcss": "^8.4.31",
 		"postcss-import": "^15.1.0",
 		"prettier": "^3.0.3",
 		"prettier-plugin-tailwindcss": "^0.5.6",
 		"tailwindcss": "^3.3.5",
-		"typescript": "^5.0.2",
+		"ts-jest": "^29.1.1",
+		"typescript": "^5.2.2",
 		"vite": "^4.4.5",
 		"vite-plugin-solid": "^2.7.0"
 	}

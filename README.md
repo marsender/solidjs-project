@@ -35,6 +35,12 @@ It correctly bundles Solid in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.<br>
 Your app is ready to be deployed!
 
+## Run tests
+
+```bash
+npm run test
+```
+
 ## Deploy
 
 ### Cloudflare Pages deployment ###
@@ -45,4 +51,4 @@ Your app is ready to be deployed!
 - Set build command: npm run build
 - Set build output directory: /dist
 
-Learn more about deploying your application with [Vite documentations](https://vitejs.dev/guide/static-deploy.html)
+Learn more about deploying your application with [Vite documentation](https://vitejs.dev/guide/static-deploy.html)
