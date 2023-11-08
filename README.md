@@ -6,7 +6,8 @@
 - [Solid JS](https://solidjs.com)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Flowbite](https://flowbite.com/)
-
+- [InversifyJS](https://inversify.io/)
+- [TanStack Query](https://tanstack.com/query/latest)
 
 ## Install
 
@@ -43,7 +44,7 @@ npm run test
 
 ## Deploy
 
-### Cloudflare Pages deployment ###
+### Cloudflare Pages deployment
 
 - Log in to the Cloudflare dashboard and select your account in Account Home > Pages.
 - Select Create a new Project and the Connect Git option.

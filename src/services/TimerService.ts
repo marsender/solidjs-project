@@ -1,23 +1,39 @@
-class TimerService {
-	private timer: number | null
+import { inject, injectable } from 'inversify'
+import TYPES from '../types'
+import NotificationService from './NotificationService'
 
-	constructor() {
+@injectable()
+class TimerService implements TimerServiceInterface {
+	private timer: number | null
+	private notificationService: NotificationService
+
+	constructor(@inject(TYPES.Notification) notificationService: NotificationService) {
+		this.notificationService = notificationService
 		this.timer = null
 	}
 
-	setTimer(duration: number): void {
-		this.timer = duration
+	private handleTimerEnd() {
+		this.notificationService.create({
+			id: 'timer-end',
+			title: 'Timer end !',
+			message: 'Take a break',
+		})
 	}
 
-	getTimer(): number | null {
-		return this.timer
+	public startTimer(duration: number) {
+		this.timer = setTimeout(() => {
+			this.handleTimerEnd()
+		}, duration)
+		console.log('Timer started for ' + duration + 'ms')
+		return Promise.resolve()
 	}
 
-	addTime(duration: number): void {
-		if (this.timer === null) {
-			return
+	public stopTimer() {
+		if (this.timer) {
+			clearTimeout(this.timer)
+			console.log('Timer stopped')
 		}
-		this.timer += duration
+		return Promise.resolve()
 	}
 }
 
