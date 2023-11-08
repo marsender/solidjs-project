@@ -2,18 +2,18 @@ class TimerService {
 	private timer: number | null
 
 	constructor() {
-		this.timer = null;
+		this.timer = null
 	}
 
-	setTimer(duration: number):void {
+	setTimer(duration: number): void {
 		this.timer = duration
 	}
 
-	getTimer():number | null {
+	getTimer(): number | null {
 		return this.timer
 	}
 
-	addTime(duration: number):void {
+	addTime(duration: number): void {
 		if (this.timer === null) {
 			return
 		}
