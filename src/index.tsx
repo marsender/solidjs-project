@@ -12,10 +12,10 @@ const createContainer = () => {
 	container.bind<TimerService>(TYPES.Timer).to(TimerService)
 	return container
 }
-const apiSource = createContainer()
+const container = createContainer()
 
 const root = document.getElementById('root')
 
 if (root) {
-	render(() => <App api={apiSource} />, root)
+	render(() => <App api={container} />, root)
 }
