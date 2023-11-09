@@ -23,11 +23,11 @@ test('timer service test', async () => {
 		expect(timerService.getDuration()).toBe(duration)
 		expect(timerService.getElapsedTime(true)).toBe(0) // elapsed time in seconds
 		expect(timerService.getElapsedTime()).not.toBe(0) // elapsed time in millseconds
-		// Wait until timer duration exit
+		// Wait for the timer to end
 		let promise = new Promise((resolve) => {
 			setTimeout(() => resolve('done!'), duration + 100)
 		})
-		await promise // wait until the promise resolves (*)
+		await promise
 		// Start a new timer and stop it imediately
 		timerService.startTimer(duration)
 		timerService.stopTimer()
@@ -35,15 +35,3 @@ test('timer service test', async () => {
 		expect(e).toMatch('error')
 	}
 })
-
-/*
-test('timer service wait', async () => {
-	let promise = new Promise((resolve) => {
-		setTimeout(() => resolve('done!'), 2000)
-	})
-
-	let result = await promise // wait until the promise resolves (*)
-
-	console.log(result) // "done!"
-})
-*/
