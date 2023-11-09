@@ -8,7 +8,7 @@ import TYPES from './types'
 import TimerService from './services/TimerService'
 
 const createContainer = () => {
-	const container = new Container({ skipBaseClassChecks: true })
+	const container = new Container()
 	container.bind<TimerService>(TYPES.Timer).to(TimerService)
 	return container
 }
