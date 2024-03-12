@@ -1,6 +1,8 @@
 # tailwind-project
 
-## This is a test project with
+![Tests](https://github.com/marsender/tailwind-project/actions/workflows/node.js.yml/badge.svg?branch=main)
+
+This is a test project with
 
 - [Vite](https://vitejs.dev/)
 - [Solid JS](https://solidjs.com)
