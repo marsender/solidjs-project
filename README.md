@@ -21,7 +21,7 @@ cd solidjs-project
 ```
 
 ```bash
-$ npm install # or pnpm install or yarn install
+npm install # or pnpm install or yarn install
 ```
 
 ## Build for dev
