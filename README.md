@@ -1,6 +1,6 @@
-# tailwind-project
+# solidjs-project
 
-![Tests](https://github.com/marsender/tailwind-project/actions/workflows/node.js.yml/badge.svg?branch=main)
+![Tests](https://github.com/marsender/solidjs-project/actions/workflows/node.js.yml/badge.svg?branch=main)
 
 This is a test project with
 
@@ -12,6 +12,13 @@ This is a test project with
 - [TanStack Query](https://tanstack.com/query/latest)
 
 ## Install
+
+Clone [SolidJS project repository](https://github.com/marsender/solidjs-project)
+
+```bash
+git clone git@github.com:marsender/solidjs-project.git
+cd solidjs-project
+```
 
 ```bash
 $ npm install # or pnpm install or yarn install
