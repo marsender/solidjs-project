@@ -16,7 +16,7 @@ This is a test project with
 Clone [SolidJS project repository](https://github.com/marsender/solidjs-project)
 
 ```bash
-git clone git@github.com:marsender/solidjs-project.git
+git clone https://github.com/marsender/solidjs-project.git
 cd solidjs-project
 ```
 
