@@ -14,7 +14,7 @@
 		"@tanstack/solid-query": "^5.8.1",
 		"inversify": "^6.0.2",
 		"reflect-metadata": "^0.1.13",
-		"solid-js": "^1.7.8"
+		"solid-js": "^1.9.9"
 	},
 	"devDependencies": {
 		"@types/jest": "^29.5.8",
