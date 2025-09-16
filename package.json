@@ -10,7 +10,7 @@
 		"test": "jest --coverage --detectOpenHandles"
 	},
 	"dependencies": {
-		"@solidjs/router": "^0.9.0",
+		"@solidjs/router": "^0.15.3",
 		"@tanstack/solid-query": "^5.8.1",
 		"inversify": "^6.0.2",
 		"reflect-metadata": "^0.2.2",
