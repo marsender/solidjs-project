@@ -2,7 +2,9 @@
 
 ![Tests](https://github.com/marsender/solidjs-project/actions/workflows/node.js.yml/badge.svg?branch=main)
 
-This is a test project with
+## Description
+
+This is a starter project template for building modern web applications. It comes pre-configured with a powerful and scalable technology stack:
 
 - [Vite](https://vitejs.dev/)
 - [Solid JS](https://solidjs.com)
