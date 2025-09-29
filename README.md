@@ -1,6 +1,6 @@
 # solidjs-project
 
-![CI](https://github.com/marsender/solidjs-project/actions/workflows/CI/badge.svg)
+![CI](https://github.com/marsender/solidjs-project/workflows/CI/badge.svg)
 
 ## Description
 
