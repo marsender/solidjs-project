@@ -1,6 +1,6 @@
 # solidjs-project
 
-![Tests](https://github.com/marsender/solidjs-project/actions/workflows/node.js.yml/badge.svg?branch=main)
+![CI](https://github.com/marsender/solidjs-project/actions/workflows/CI/badge.svg)
 
 ## Description
 
