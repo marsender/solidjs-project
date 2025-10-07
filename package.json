@@ -28,6 +28,6 @@
 		"ts-jest": "^29.4.2",
 		"typescript": "^5.2.2",
 		"vite": "^7.1.9",
-		"vite-plugin-solid": "^2.11.8"
+		"vite-plugin-solid": "^2.11.9"
 	}
 }
